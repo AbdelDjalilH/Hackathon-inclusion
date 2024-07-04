@@ -9,7 +9,7 @@ function Navbar() {
       <Link to="/login">Se connecter</Link>
       <img src={logo} alt="logo" />
       <Link to="/OffreEmplois">Offres d'emploi</Link>
-      <Link to="/contact">Contact</Link>
+      <Link to="/nousContacter">Contact</Link>
       <Link to="/">Accueil</Link>
       <Link to="/offresDuMoment">Offres du moment</Link>
     </nav>
