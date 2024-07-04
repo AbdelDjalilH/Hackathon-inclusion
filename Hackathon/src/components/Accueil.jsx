@@ -10,20 +10,22 @@ function Accueil() {
     <div>
       <section className="top-page">
         <div className="left">
-          <h1>Votre nouveau travail ici</h1>
+          <h1 className="Accueil-title">Votre nouveau travail ici</h1>
 
           <div className="input-div">
-            <input type="text" placeholder="mot clé" />
-            <input type="text" placeholder="Ville, département" />
+            <input type="text" placeholder="Mot clé" />
+            <input type="text" placeholder="Ville, Département" />
           </div>
-          <Link>Trouver des offres</Link>
+          <div className="trouverDesOffresBtn">
+            <button className="btnOrange">Trouver des offres</button>
+          </div>
         </div>
         <div className="right">
           <img src={handshake} alt="handshake" />
         </div>
       </section>
       <section className="middle-page">
-        <Link to="/offresDescription">Offres du moment</Link>
+        <Link to="/offresDuMoment">Offres du moment</Link>
         <div className="emploi-section">
           <div>
             <img src={emploi1} alt="empoi1" />

@@ -1,0 +1,30 @@
+.top-page {
+  display: flex;
+  flex-direction: row;
+  margin-right: 0;
+}
+.left {
+  margin-top: 5rem;
+}
+.Accueil-title {
+  color: black;
+  text-align: center;
+}
+.input-div {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.trouverDesOffresBtn {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.btnOrange {
+  text-decoration: none;
+  color: white;
+  background-color: #ff565f;
+  border: none;
+  border-radius: 5px;
+}
