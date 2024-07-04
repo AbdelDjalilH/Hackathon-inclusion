@@ -1,9 +1,14 @@
-import ContactUs from "./components/ContactUs";
+import { Outlet } from "react-router-dom";
+import "./App.css";
+import Navbar from "./components/Navbar.jsx";
 
-export default function App() {
+function App() {
   return (
-    <>
-      <ContactUs />
-    </>
+    <div className="App-style">
+      <Navbar />
+      <Outlet />
+    </div>
   );
 }
+export default App;
+
