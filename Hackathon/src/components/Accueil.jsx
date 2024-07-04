@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import "../styles/accueil.css";
 import handshake from "../assets/handshake.png";
 import emploi1 from "../assets/emploi1.png";
-import emploi2 from "../assets/emploi1.png";
-import emploi3 from "../assets/emploi1.png";
+import emploi2 from "../assets/emploi2.png";
+import emploi3 from "../assets/emploi3.png";
 
 function Accueil() {
   return (
@@ -22,7 +23,7 @@ function Accueil() {
         </div>
       </section>
       <section className="middle-page">
-        <h2>Offres du moment</h2>
+        <Link to="/offresDescription">Offres du moment</Link>
         <div className="emploi-section">
           <div>
             <img src={emploi1} alt="empoi1" />
@@ -36,7 +37,6 @@ function Accueil() {
         </div>
       </section>
       <section className="bottom-page">
-        <h2>Nos offres</h2>
         <Link>Voir les offres</Link>
       </section>
     </div>

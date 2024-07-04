@@ -1,10 +1,12 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import Offre from "./components/Offre.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
     <div className="App-style">
-      <Offre />;
+      <Navbar />
+      <Outlet />
     </div>
   );
 }

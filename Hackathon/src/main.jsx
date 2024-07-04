@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import "./index.css";
 import Accueil from "./components/Accueil.jsx";
 import Offre from "./components/Offre.jsx";
+import OffresDuMoment from "./components/OffresDuMoment.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +17,12 @@ const router = createBrowserRouter([
         element: <Accueil />,
       },
       {
-        path: "/Offre",
+        path: "/OffreEmplois",
         element: <Offre />,
+      },
+      {
+        path: "/offresDuMoment",
+        element: <OffresDuMoment />,
       },
     ],
   },
