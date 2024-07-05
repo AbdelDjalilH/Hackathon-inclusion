@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
-import "./index.css";
-import Accueil from "./components/Accueil.jsx";
+import App from "../src/App";
+import "../src/index.css";
+import Accueil from "./components/Accueil";
 import Offre from "./components/Offre.jsx";
 import OffresDuMoment from "./components/OffresDuMoment.jsx";
 import ContactUs from "./components/ContactUs.jsx";

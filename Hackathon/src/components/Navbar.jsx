@@ -5,9 +5,10 @@ import "../styles/navbar.css";
 function Navbar() {
   return (
     <nav>
+      <img src={logo} alt="logo" />
       <Link to="/signup">S'inscrire</Link>
       <Link to="/login">Se connecter</Link>
-      <img src={logo} alt="logo" />
+
       <Link to="/OffreEmplois">Offres d'emploi</Link>
       <Link to="/nousContacter">Contact</Link>
       <Link to="/">Accueil</Link>

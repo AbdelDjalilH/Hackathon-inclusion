@@ -1,11 +1,15 @@
+* {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
 body {
   background-color: rgb(235, 210, 210);
+  margin-bottom: 24px;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -16,6 +20,7 @@ body {
   margin-bottom: 8px;
   font-weight: bold;
   border-radius: 12px;
+  color: black;
 }
 
 .contact-form input,
@@ -33,14 +38,14 @@ body {
 }
 
 .contact-form button {
-  padding: 10px 20px;
+  padding: 8px;
   border: none;
   border-radius: 4px;
   background-color: #eef1f3;
   color: rgb(10, 1, 1);
   cursor: pointer;
   align-items: center;
-  width: 50%;
+  width: 60%;
   align-self: self-end;
 }
 
@@ -63,7 +68,8 @@ body {
   }
 
   .contact-form button {
-    padding: 8px 16px;
+    padding: 8px;
+    font-size: 14px;
   }
 }
 
@@ -78,6 +84,7 @@ body {
   }
 
   .contact-form button {
-    padding: 6px 12px;
+    padding: 8px;
+    font-size: 14px;
   }
 }
