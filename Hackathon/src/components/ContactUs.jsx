@@ -3,7 +3,7 @@ import "../styles/ContactUs.css";
 const ContactUs = () => {
   return (
     <div className="contact-form">
-      <label htmlFor="name">Nom Prenon:</label>
+      <label htmlFor="name">Nom Prenom:</label>
       <input
         type="text"
         id="name"
