@@ -1,3 +1,35 @@
 nav {
   background-color: #ffc9a8;
 }
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoImg {
+  width: 7rem;
+  margin-bottom: 0.5rem;
+  margin-left: 50px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style-type: none;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-right: 50px;
+}
+
+.left-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  margin-left: 50px;
+}
