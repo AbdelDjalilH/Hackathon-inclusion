@@ -1,0 +1,16 @@
+li {
+  color: black;
+}
+
+.QSN {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.left-li {
+  margin-left: 45rem;
+}
+.right-li {
+  margin-right: 45rem;
+  font-size: 25px;
+}

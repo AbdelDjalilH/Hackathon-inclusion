@@ -7,7 +7,11 @@ import Accueil from "./components/Accueil";
 import Offre from "./components/Offre.jsx";
 import OffresDuMoment from "./components/OffresDuMoment.jsx";
 import ContactUs from "./components/ContactUs.jsx";
+
 import PageAccueil from "./components/PageAccueil.jsx";
+
+import Register from "./components/Register.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -33,6 +37,13 @@ const router = createBrowserRouter([
       {
         path: "/Accueil Allinclusion",
         element: <PageAccueil />,
+        path: "/Register",
+        element: <Register />,
+      },
+      {
+        path: "/Login",
+        element: <ContactUs />,
+
       },
     ],
   },

@@ -10,34 +10,55 @@ function Accueil() {
     <div>
       <section className="top-page">
         <div className="left">
-          <h1>Votre nouveau travail ici</h1>
+          <h1 className="Accueil-title">Votre nouveau travail ici</h1>
 
           <div className="input-div">
-            <input type="text" placeholder="mot clé" />
-            <input type="text" placeholder="Ville, département" />
+            <input className="input-top" type="text" placeholder="Mot clé" />
+            <input
+              className="input-top"
+              type="text"
+              placeholder="Ville, Département"
+            />
           </div>
-          <Link>Trouver des offres</Link>
+          <div className="trouverDesOffresBtn">
+            <button className="btnOrange-top">Trouver des offres</button>
+          </div>
         </div>
         <div className="right">
-          <img src={handshake} alt="handshake" />
+          <img className="handshake" src={handshake} alt="handshake" />
         </div>
       </section>
       <section className="middle-page">
-        <Link to="/offresDescription">Offres du moment</Link>
+        <Link className="offres-middle-title" to="/offresDuMoment">
+          Offres du moment
+        </Link>
         <div className="emploi-section">
-          <div>
-            <img src={emploi1} alt="empoi1" />
+          <div className="div-img1">
+            <img className="img1" src={emploi1} alt="empoi1" />
+            <p>
+              Vendeur chez Auchan <br />
+              Plus de détails ➡️
+            </p>
           </div>
-          <div>
-            <img src={emploi2} alt="emploi2" />
+          <div className="div-img2">
+            <img className="img2" src={emploi2} alt="emploi2" />
+            <p>
+              Expert comptable
+              <br /> Plus de détails ➡️
+            </p>
           </div>
-          <div>
-            <img src={emploi3} alt="emploi3" />
+          <div className="div-img3">
+            <img className="img3" src={emploi3} alt="emploi3" />
+            <p>
+              Maçon
+              <br /> Plus de détails ➡️
+            </p>
           </div>
         </div>
       </section>
       <section className="bottom-page">
-        <Link>Voir les offres</Link>
+        <h2 className="bottom-title">Nos Offres</h2>
+        <button className="btnOrange-bottom">Voir les offres</button>
       </section>
     </div>
   );
