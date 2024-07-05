@@ -1,30 +1,123 @@
 .top-page {
   display: flex;
   flex-direction: row;
-  margin-right: 0;
+  margin: 0;
 }
 .left {
-  margin-top: 5rem;
+  margin-top: 10rem;
+  width: 50%;
+}
+.right {
+  width: 50%;
+  margin-right: 0;
 }
 .Accueil-title {
   color: black;
   text-align: center;
+  font-size: 50px;
 }
 .input-div {
-  margin-top: 3rem;
+  margin-top: 6rem;
   display: flex;
   flex-direction: row;
   gap: 3rem;
+  justify-content: center;
+}
+.input-top {
+  width: 29rem;
+  height: 4rem;
 }
 .trouverDesOffresBtn {
-  margin-top: 2rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
 }
-.btnOrange {
+.btnOrange-top {
   text-decoration: none;
+  font-size: 20px;
   color: white;
   background-color: #ff565f;
   border: none;
   border-radius: 5px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 15rem;
+  margin-top: 1rem;
+  height: 4rem;
+}
+.handshake {
+  width: 67rem;
+}
+
+.middle-page {
+  background-color: #ffecdf;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.emploi-section {
+  display: flex;
+  background-color: #ffecdf;
+  flex-direction: row;
+  margin-top: 4rem;
+  justify-content: space-around;
+}
+.offres-middle-title {
+  background-color: #ffecdf;
+  margin-top: 2rem;
+  text-align: center;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+}
+.div-img1,
+.div-img2,
+.div-img3,
+.img1,
+.img2,
+.img3 {
+  background-color: #ffecdf;
+  z-index: 0;
+}
+.img1,
+.img2,
+.img3 {
+  height: 32.25rem;
+}
+p {
+  height: 6rem;
+  z-index: 1;
+  background-color: #00ffff;
+  border-radius: 30px;
+  color: black;
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 20px;
+}
+.bottom-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottom-title {
+  margin-top: 2rem;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+.btnOrange-bottom {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  background-color: #ff565f;
+  border: none;
+  border-radius: 5px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 25rem;
+  margin-top: 2rem;
+  height: 4rem;
+  margin-left: 40.5%;
+  margin-bottom: 6rem;
 }
