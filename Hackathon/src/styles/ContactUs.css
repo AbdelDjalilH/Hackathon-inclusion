@@ -7,6 +7,8 @@ body {
   flex-direction: column;
   width: 50%;
   margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -23,9 +25,13 @@ body {
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 20px;
   width: 100%;
   box-sizing: border-box;
+}
+
+label {
+  color: black;
 }
 
 .contact-form textarea {
@@ -35,17 +41,18 @@ body {
 .contact-form button {
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
-  background-color: #eef1f3;
-  color: rgb(10, 1, 1);
+  background-color: #465be1;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   align-items: center;
   width: 50%;
   align-self: self-end;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 .contact-form button:hover {
-  background-color: #199c19;
+  background-color: #192d9c;
 }
 
 @media (max-width: 768px) {

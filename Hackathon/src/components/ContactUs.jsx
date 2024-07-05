@@ -29,7 +29,9 @@ const ContactUs = () => {
         placeholder="Votre message"
       ></textarea>
 
-      <button type="submit">Envoyer Message</button>
+      <button className="submit-button" type="submit">
+        Envoyer Message
+      </button>
     </div>
   );
 };

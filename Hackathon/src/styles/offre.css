@@ -17,6 +17,15 @@ body {
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+input,
+button,
+.link {
+  font-family: "Itim", cursive;
+}
+
 .h1-offre {
   font-size: 2rem;
   margin-bottom: 20px;
@@ -101,6 +110,7 @@ input {
   gap: 20px;
   flex: 1;
   background-color: #ffecdf;
+  margin: 0 0 0 140px;
 }
 
 .img-offre {
