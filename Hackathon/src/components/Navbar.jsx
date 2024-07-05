@@ -8,7 +8,7 @@ function Navbar() {
       <ul>
         <div className="left-nav">
           <li>
-            <Link className="link" to="/login">
+            <Link className="link" to="/connecter">
               Se connecter
             </Link>
           </li>

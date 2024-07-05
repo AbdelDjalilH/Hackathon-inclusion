@@ -17,14 +17,40 @@ function Offre() {
       <h2 className="h2-offre">Offres d'emploi</h2>
       <div className="job-offers">
         <div className="column">
-          <img className="img-offre" src="image1.jpg" alt="Offre 1" />
-          <img className="img-offre" src="image2.jpg" alt="Offre 2" />
-          <img className="img-offre" src="image3.jpg" alt="Offre 3" />
+          <img
+            className="img-offre"
+            src="../src/assets/emploi1.png"
+            alt="Offre 1"
+          />
+          <img
+            className="img-offre"
+            src="../src/assets/emploi2.png"
+            alt="Offre 2"
+          />
         </div>
         <div className="column">
-          <img className="img-offre" src="image4.jpg" alt="Offre 4" />
-          <img className="img-offre" src="image5.jpg" alt="Offre 5" />
-          <img className="img-offre" src="image6.jpg" alt="Offre 6" />
+          <img
+            className="img-offre"
+            src="../src/assets/emploi3.png"
+            alt="Offre 3"
+          />
+          <img
+            className="img-offre"
+            src="../src/assets/emploi4.png"
+            alt="Offre 4"
+          />
+        </div>
+        <div className="column">
+          <img
+            className="img-offre"
+            src="../src/assets/emploi5.png"
+            alt="Offre 5"
+          />
+          <img
+            className="img-offre"
+            src="../src/assets/emploi6.png"
+            alt="Offre 6"
+          />
         </div>
       </div>
 

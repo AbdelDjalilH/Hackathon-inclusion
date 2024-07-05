@@ -7,6 +7,7 @@ import Accueil from "./components/Accueil.jsx";
 import Offre from "./components/Offre.jsx";
 import OffresDuMoment from "./components/OffresDuMoment.jsx";
 import ContactUs from "./components/ContactUs.jsx";
+import Connecter from "./components/Connecter.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/nousContacter",
         element: <ContactUs />,
+      },
+      {
+        path: "/connecter",
+        element: <Connecter />,
       },
     ],
   },
