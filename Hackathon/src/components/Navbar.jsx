@@ -5,6 +5,16 @@ import "../styles/navbar.css";
 function Navbar() {
   return (
     <nav>
+
+      <img src={logo} alt="logo" />
+      <Link to="/signup">S'inscrire</Link>
+      <Link to="/login">Se connecter</Link>
+
+      <Link to="/OffreEmplois">Offres d'emploi</Link>
+      <Link to="/nousContacter">Contact</Link>
+      <Link to="/">Accueil</Link>
+      <Link to="/offresDuMoment">Offres du moment</Link>
+
       <ul>
         <div className="left-nav">
           <li>
@@ -38,6 +48,7 @@ function Navbar() {
         </div>
       </ul>
       <hr />
+
     </nav>
   );
 }
