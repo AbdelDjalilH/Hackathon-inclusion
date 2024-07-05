@@ -18,6 +18,8 @@
 }
 .input-div {
   margin-top: 6rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
   display: flex;
   flex-direction: row;
   gap: 3rem;
@@ -120,4 +122,33 @@ p {
   height: 4rem;
   margin-left: 40.5%;
   margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 830px) {
+  .handshake {
+    display: none;
+  }
+
+  /* .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+  }
+
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  } */
 }
